@@ -80,7 +80,7 @@ h6 { font-size: 16px;}
 	margin: 0 auto;
 }
 
-
+/* center the heading hi im steve */
 .greeting-wrapper{
 	display: grid;
 	text-align: center;
@@ -118,11 +118,6 @@ h6 { font-size: 16px;}
 	background-color: var(--mainColor);
 }
 
-#navigation a{
-	color:var(--mainText);
-}
-
-
 #navigation{
 	margin:0;
 	padding: 10px;
@@ -134,22 +129,24 @@ h6 { font-size: 16px;}
 	margin-left:5px;
 }
 
+#navigation a{
+    /* color:var(--mainText); */
+    color:#17a2b8;
+}
+
 .dots-wrapper{
 	display: flex;
 	padding: 10px;
 }
 
 #dot-1{
-	background-color:  #FC6058;
-}
+	background-color:  #FC6058;}
 
 #dot-2{
-	background-color:  #FEC02F;
-}
+	background-color:  #FEC02F;}
 
 #dot-3{
-	background-color:  #2ACA3E;
-}
+	background-color:  #2ACA3E;}
 
 .browser-dot{
 	background-color: black;
