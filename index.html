@@ -14,7 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="default.css" </head>
+    <link rel="stylesheet" type="text/css" href="default.css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+</head>
+
+   
 
 <body>
     <!-- section styles s1 is the Gray,s2 is the white  -->
@@ -33,7 +39,7 @@
                     </div>
 
                     <ul id="navigation">
-                        <li> <a href="#">Contact</a> </li>
+                        <li> <a target="_blank" href="https://www.linkedin.com/in/steve-kavuu-8a96611b7/">Contact</a> </li>
                     </ul>
                 </div>
 
@@ -41,10 +47,10 @@
                     <img id="profile_pic" src="images/NO green chair.jpg">
                     <h5 style="text-align: center; line-height: 0;">Personilize Theme</h5>
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
 
                     <p id="settings-note">*Theme options will be saved for<br>your next visit. </p>
@@ -83,7 +89,7 @@
 
 					<h4>TOP EXPERTISE</h4>
 
-					<p>Full-stack Web Developer with primary focus on React: <a target="_blank" href="S.Kavuu Resume.pdf">Download Resume</a></p>
+					<p>Full-stack Web Developer with primary focus on React: <a target="_blank" href="Resume.pdf">Download Resume</a></p>
 
 					<div id="skills">
 						<ul>
@@ -132,7 +138,7 @@
 						<div class="post-preview">
 							<h6 class="post-title">Notes</h6>
 							<p class="post-intro">an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.</p>
-							<a href="post.html">Read More</a>
+							<a target="_blank" href="https://notebook11.herokuapp.com/">Heroku Link</a>
 						</div>
 					</div>
 				</div>
@@ -143,7 +149,7 @@
 						<div class="post-preview">
 							<h6 class="post-title">PWA BUDGET TRACKER</h6>
 							<p class="post-intro">Use the budget app on or offline to input withdrawals or deposits which will then be shown on the page and added back to the transaction history when the connection is back online.</p>
-							<a href="post.html">Read More</a>
+							<a target="_blank" href="https://budget21.herokuapp.com/">Heroku Link</a>
 						</div>
 					</div>
 				</div>
@@ -153,8 +159,8 @@
 						<img class="thumbnail" src="images/password.png">
 						<div class="post-preview">
 							<h6 class="post-title">Password Generator</h6>
-							<p class="post-intro">The project is a javascript random password generator.</p>
-							<a href="post.html">Read More</a>
+							<p class="post-intro">This application generates random passwords based on certian user criteria. App run's in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. </p>
+							<a target="_blank" href="https://sck916.github.io/Password-Generator/">Link</a>
 						</div>
 					</div>
 				</div>
@@ -164,7 +170,7 @@
 	</section>
     <div class="main-container">
         <a href=""></a>
-        <h3 style="text-align: center;">Get In Touch</h3>
+        <h3 style="text-align: center;">Contact Me</h3>
 
         <form id="contact-form">
             <a name="contact"></a>
