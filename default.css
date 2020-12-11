@@ -287,6 +287,7 @@ h6 { font-size: 16px;}
 
 .about-wrapper{
 	display: grid;
+	/* auto fit as many col into row then stack */
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	padding-bottom: 50px;
 	padding-top: 50px;
@@ -300,7 +301,7 @@ h6 { font-size: 16px;}
 	background-color: var(--previewShadow);
 }
 
-.social-links{
+/* for twitter and linkdin .social-links{
 	display: grid;
 	align-content: center;
 	text-align: center;
@@ -308,7 +309,7 @@ h6 { font-size: 16px;}
 
 #social_img{
 	width: 100%;
-}
+} */
 
 
 .post-wrapper{
