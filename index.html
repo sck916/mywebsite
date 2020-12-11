@@ -170,31 +170,34 @@
     </section>
     
 
-    <!-- <div class="main-container">
+    <div class="main-container">
         <a href=""></a>
         <h3 style="text-align: center;">Contact Me</h3>
 
-        <form id="contact-form">
+        <form id="contact-form" action="contactform.php" method="post">
             <a name="contact"></a>
 
             <label>Name</label>
-            <input class="input-field" type="text" name="name">
-
-            <label>Subject</label>
-            <input class="input-field" type="text" name="subject">
+            <input class="input-field" type="text" name="name" placeholder="Full name">
 
             <label>Email</label>
-            <input class="input-field" type="text" name="email">
+            <input class="input-field" type="text" name="email" placeholder="email">
+
+            <label>Subject</label>
+            <input class="input-field" type="text" name="subject" placeholder="Subject">
 
             <label>Message</label>
-            <textarea class="input-field" name="message"></textarea>
+            <textarea class="input-field" name="message" placeholder="Message"></textarea>
 
             <input id="submit-btn" type="submit" value="Send">
         </form>
-    </div> -->
+    </div>
 </section> 
 
 <script type="text/javascript" src="script.js"></script>
+
+<!-- <?php include 'contactform.php';?> -->
+
 
 </body>
 
